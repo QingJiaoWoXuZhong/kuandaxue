@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>酷安国际大学</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #12c274;
+      color: #FFFFFF;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+    nav {
+      background-color: #F0F0F0;
+      padding: 10px;
+      text-align: center;
+    }
+    nav .link-container {
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333333;
+      margin: 10px;
+      position: relative;
+    }
+    nav a::before,
+    nav a::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      width: 0;
+      height: 2px;
+      background-color: #005CAF;
+      transition: width 0.3s ease;
+    }
+    nav a::before {
+      left: 0;
+      transform-origin: left;
+    }
+    nav a::after {
+      right: 0;
+      transform-origin: right;
+    }
+    nav a:hover::before,
+    nav a:hover::after {
+      width: 50%;
+    }
+    section {
+      padding: 20px;
+      text-align: center;
+    }
+    footer {
+      background-color: #333333;
+      color: #FFFFFF;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <img src="img/未标题-1.png" style="width: 100px; height: auto;">
+  <h1>酷安国际大学</h1>
+  <p>创新 • 科技 • 成就</p>
+</header>
+
+<nav>
+  <div class="link-container">
+    <a href="#">首页</a>
+    <a href="https://www.coolapk.com/">领导信箱</a>
+    <a href="#">学院</a>
+    <a href="#">招生</a>
+    <a href="#">研究</a>
+    <a href="#">校园生活</a>
+  </div>
+</nav>
+
+<section>
+  <h2>欢迎来到酷安国际大学</h2>
+  <p>酷安国际大学致力于培养未来的科技领导者和创新者。</p>
+  <p>我们提供世界一流的教育和研究环境，为学生提供广阔的发展空间。</p>
+</section>
+
+<footer>
+  <p>版权所有 &copy; 2023 酷安国际大学</p>
+</footer>
+</body>
+</html>
